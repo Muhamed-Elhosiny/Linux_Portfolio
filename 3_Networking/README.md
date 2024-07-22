@@ -41,7 +41,7 @@ b. Set a Static IP Address
         b. Test Connectivity
     #6_Networking/screenshots/Picture6.png
         c. Check Routing Table:
-    #7
+    #7_Networking/screenshots/Picture7.png
         d. Trace Route to an External Host:
     #8
 
