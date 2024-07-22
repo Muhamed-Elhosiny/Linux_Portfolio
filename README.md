@@ -38,7 +38,6 @@
 
  ![pic_1](screenshots/Picture1.png)
 
-
 ![pic](screenshots/Picture2.png)
 
 ![pic](screenshots/Picture3.png)
