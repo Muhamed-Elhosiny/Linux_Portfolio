@@ -21,7 +21,7 @@ o	The Apache web server, known for its flexibility and power, will be installed 
  ![screenshot1](screenshots/Picture3.png)
  
 
- - Verify by visiting the server's IP address
+ - Verifying by visiting the server's IP address
 
  ![screenshot1](screenshots/Picture4.png)
 
