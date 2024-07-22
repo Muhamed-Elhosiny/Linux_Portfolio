@@ -9,3 +9,5 @@
  - Starts the Apache service: 
  # sudo systemctl start apache2
 
+ # Verify by visiting the server's IP address
+
