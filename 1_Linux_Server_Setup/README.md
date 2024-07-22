@@ -4,7 +4,7 @@ This project will demonstrate your ability to set up and configure a Linux serve
 
 1.	Initial Server Configuration
    
-Update the package index and upgrade installed packages: 
-![Screenshot1](screenshots/1.png)
+   Update the package index and upgrade installed packages: 
+   ![Screenshot1](screenshots/1.png)
 
 
