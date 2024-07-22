@@ -43,7 +43,7 @@ b. Set a Static IP Address
         c. Check Routing Table:
     #7_Networking/screenshots/Picture7.png
         d. Trace Route to an External Host:
-    #8
+    #83_Networking/screenshots/Picture8.png
 
 
     In summary, the choice of configuration depends on the specific network requirements and environment.
