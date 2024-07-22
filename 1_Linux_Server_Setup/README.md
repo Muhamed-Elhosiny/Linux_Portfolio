@@ -9,10 +9,12 @@ This project will demonstrate your ability to set up and configure a Linux serve
 
    ![Screenshot1](screenshots/Picture2.png)
 
-   -Create a New User and Add to the Sudo Group giving it administrative
+   - Create a New User and Add to the Sudo Group giving it administrative
     privileges.
 
    ![Screenshot1](screenshots/Picture3.png)
+
+   ![Screenshot1](screenshots/Picture3.1.png)
 
 2.	Configuring SSH Access 
 
