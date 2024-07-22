@@ -30,27 +30,27 @@ After following these steps, your network settings should be correctly applied w
 2.	Configuration Update: The gateway4 setting is replaced with the routes section,        which is the recommended way to specify default routes in recent versions of            Netplan.
 3.	Starting systemd-networkd: This service is responsible for managing network            configurations. If it's not running, Netplan cannot apply the configurations.
 4.	Applying Netplan: Running sudo netplan apply reconfigures the network interfaces       according to the updated settings.
-   
- ![pic1](screenshots/Picture4.png)
+
+![pic1](screenshots/Picture4.png)
    
     c. Verify Configuration:
     
-  ![pic1](screenshots/Picture5.png)
+![pic1](screenshots/Picture5.png)  
   
     2.	Troubleshooting Network Issues
     
         a . Check Network Interface Status:	ifconfig eth0
         b. Test Connectivity
         
-    ![pic1](screenshots/Picture6.png)
+![pic1](screenshots/Picture6.png)
     
         c. Check Routing Table:
         
-     ![pic1](screenshots/Picture7.png)
+![pic1](screenshots/Picture7.png)
      
         d. Trace Route to an External Host:
         
-     ![pic1](screenshots/Picture8.png)
+![pic1](screenshots/Picture8.png)
 
 In summary, the choice of configuration depends on the specific network requirements and environment.
 The static configuration, which i did is more detailed and is used when precise control over network settings is needed.
