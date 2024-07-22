@@ -35,7 +35,7 @@ b. Set a Static IP Address
 #3_Networking/screenshots/Picture4.png
    
     c. Verify Configuration:
-  #5
+  #53_Networking/screenshots/Picture5.png
     2.	Troubleshooting Network Issues
         a . Check Network Interface Status:	ifconfig eth0
         b. Test Connectivity
