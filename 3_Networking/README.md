@@ -37,9 +37,9 @@ After following these steps, your network settings should be correctly applied w
     
 ![pic1](screenshots/Picture5.png)  
   
-    2.	Troubleshooting Network Issues
+    2. Troubleshooting Network Issues
     
-        a . Check Network Interface Status:	ifconfig eth0
+        a. Check Network Interface Status:	ifconfig eth0
         b. Test Connectivity
         
 ![pic1](screenshots/Picture6.png)
