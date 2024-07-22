@@ -5,8 +5,7 @@ Detailed Steps
 
 1.	Initial Network Configuration
     a. Check Current Network Settings:
-  	This command displays all network interfaces and their current configuration.
-  		
+  	This command displays all network interfaces and their current configuration.	
  ![pic1](screenshots/Picture1.png)
 
 
