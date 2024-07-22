@@ -36,7 +36,7 @@
 •	Skills: User management, file permissions.
 •	Tools: useradd, userdel, chmod, chown.
 
-![pic](screenshots/Picture1.png)
+![pic_1](screenshots/Picture1.png)
 
 ![pic](screenshots/Picture2.png)
 
