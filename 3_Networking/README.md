@@ -17,7 +17,7 @@ b. Set a Static IP Address
   - Edit network configuration file (assuming Ubuntu with netplan)
   - sudo vim /etc/netplan/01-netcfg.yaml
   - Add Static IP Configuration:
-    #3
+   3_Networking/screenshots/Picture3.png
 
     # problem
     
