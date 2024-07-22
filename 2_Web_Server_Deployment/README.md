@@ -6,6 +6,9 @@
  - Enables Apache service to start on boot: 
 # sudo systemctl enable apache2 
 
+![screenshot1](screenshots/Picture2.png)
+
+
  - Starts the Apache service: 
  # sudo systemctl start apache2
 
