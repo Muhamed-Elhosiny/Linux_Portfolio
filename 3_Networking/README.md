@@ -32,18 +32,18 @@ b. Set a Static IP Address
 3.	Starting systemd-networkd: This service is responsible for managing network configurations. If it's not running, Netplan cannot apply the configurations.
 4.	Applying Netplan: Running sudo netplan apply reconfigures the network interfaces according to the updated settings.
    
-#
+#3_Networking/screenshots/Picture4.png
    
     c. Verify Configuration:
-  #4
+  #5
     2.	Troubleshooting Network Issues
         a . Check Network Interface Status:	ifconfig eth0
         b. Test Connectivity
-    #5
-        c. Check Routing Table:
     #6
-        d. Trace Route to an External Host:
+        c. Check Routing Table:
     #7
+        d. Trace Route to an External Host:
+    #8
 
 
     In summary, the choice of configuration depends on the specific network requirements and environment.
