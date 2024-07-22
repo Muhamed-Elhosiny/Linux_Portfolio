@@ -4,8 +4,10 @@ Objective: Configure network settings and troubleshoot network issues on a Linux
 Detailed Steps
 
 1.	Initial Network Configuration
-    a. Check Current Network Settings:		
-#1
+    a. Check Current Network Settings:
+  		
+ 3_Networking/screenshots/Picture1.png
+
 This command displays all network interfaces and their current configuration.
 
 
