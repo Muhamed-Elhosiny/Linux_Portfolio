@@ -10,8 +10,6 @@ Detailed Steps
  ![pic1](screenshots/Picture1.png)
 
 
-
-
     b. Set a Static IP Address
 
   - Identify your network interface (e.g., eth0, enp0s3, etc.)
@@ -21,11 +19,11 @@ Detailed Steps
     
     ![pic1](screenshots/Picture3.png)
 
-    # Problem
+# Problem
     
-     #When I tried to Apply the Configuration:	sudo netplan apply, I met this problem
-    #Permissions Issue: Netplan configuration files should have restricted permissions     for security reasons. You need to change the permissions of the file
-    /etc/netplan/01-netcfg.yaml.
+When I tried to Apply the Configuration:	sudo netplan apply, I met this problem
+Permissions Issue: Netplan configuration files should have restricted permissions     for security reasons. You need to change the permissions of the file
+/etc/netplan/01-netcfg.yaml.
 
 After following these steps, your network settings should be correctly applied without warnings or errors.
     
@@ -37,20 +35,27 @@ After following these steps, your network settings should be correctly applied w
  ![pic1](screenshots/Picture4.png)
    
     c. Verify Configuration:
+    
   ![pic1](screenshots/Picture5.png)
+  
     2.	Troubleshooting Network Issues
+    
         a . Check Network Interface Status:	ifconfig eth0
         b. Test Connectivity
+        
     ![pic1](screenshots/Picture6.png)
+    
         c. Check Routing Table:
+        
      ![pic1](screenshots/Picture7.png)
+     
         d. Trace Route to an External Host:
+        
      ![pic1](screenshots/Picture8.png)
 
-
-    In summary, the choice of configuration depends on the specific network requirements and environment.
-    The static configuration, which i did is more detailed and is used when precise control over network settings is needed.
-    The simpler configuration is more common for typical use cases where automatic IP configuration via DHCP is sufficient.
+In summary, the choice of configuration depends on the specific network requirements and environment.
+The static configuration, which i did is more detailed and is used when precise control over network settings is needed.
+The simpler configuration is more common for typical use cases where automatic IP configuration via DHCP is sufficient.
     
 
 
