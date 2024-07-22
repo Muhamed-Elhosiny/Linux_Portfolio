@@ -20,9 +20,6 @@ This project will demonstrate your ability to set up and configure a Linux serve
 
    ![Screenshot1](screenshots/Picture4.png)
      
-   ![Screenshot1](screenshots/Picture5.png)
-   
-
    - Secure SSH by editing the configuration file (/etc/ssh/sshd_config):
         - Disable root login: PermitRootLogin no
         - Change the default SSH port: Port 2222
