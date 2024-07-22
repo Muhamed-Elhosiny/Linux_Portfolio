@@ -18,7 +18,7 @@ b. Set a Static IP Address
   - sudo vim /etc/netplan/01-netcfg.yaml
   - Add Static IP Configuration:
     
-   3_Networking/screenshots/Picture3.png
+    ![pic1](screenshots/Picture3.png)
 
     # problem
     
