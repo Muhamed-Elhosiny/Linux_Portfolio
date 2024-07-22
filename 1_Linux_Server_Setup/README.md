@@ -28,8 +28,8 @@ This project will demonstrate your ability to set up and configure a Linux serve
         - Change the default SSH port: Port 2222
 
    1_Linux_Server_Setup/screenshots/Picture5.png
-   xx
-   xx
+1_Linux_Server_Setup/screenshots/Picture6.png
+   
         - Restart SSH Service to Apply Changes
 
 
