@@ -35,11 +35,11 @@ b. Set a Static IP Address
 #3_Networking/screenshots/Picture4.png
    
     c. Verify Configuration:
-  #53_Networking/screenshots/Picture5.png
+  #5_Networking/screenshots/Picture5.png
     2.	Troubleshooting Network Issues
         a . Check Network Interface Status:	ifconfig eth0
         b. Test Connectivity
-    #6
+    #6_Networking/screenshots/Picture6.png
         c. Check Routing Table:
     #7
         d. Trace Route to an External Host:
