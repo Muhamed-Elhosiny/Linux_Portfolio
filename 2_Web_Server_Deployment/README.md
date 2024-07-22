@@ -11,8 +11,10 @@
 
  - Starts the Apache service: 
  # sudo systemctl start apache2
- 2_Web_Server_Deployment/screenshots/Picture3.png
+ ![screenshot1](screenshots/Picture3.png)
  
 
  # Verify by visiting the server's IP address
+
+ ![screenshot1](screenshots/Picture4.png)
 
