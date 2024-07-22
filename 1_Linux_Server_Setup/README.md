@@ -18,19 +18,23 @@ This project will demonstrate your ability to set up and configure a Linux serve
 
    - Install and configure OpenSSH Server:
 
-   1_Linux_Server_Setup/screenshots/Picture4.png
-
-   1_Linux_Server_Setup/screenshots/Picture5.png
+   ![Screenshot1](screenshots/Picture4.png)
+     
+   ![Screenshot1](screenshots/Picture5.png)
    
 
    - Secure SSH by editing the configuration file (/etc/ssh/sshd_config):
         - Disable root login: PermitRootLogin no
         - Change the default SSH port: Port 2222
 
-   1_Linux_Server_Setup/screenshots/Picture5.png
-1_Linux_Server_Setup/screenshots/Picture6.png
+   ![Screenshot1](screenshots/Picture5.png)
+    
+   ![Screenshot1](screenshots/Picture6.png)
    
-        - Restart SSH Service to Apply Changes
+   - Restart SSH Service to Apply Changes
+
+   ![Screenshot1](screenshots/Picture7.png)
+        
 
 
 
