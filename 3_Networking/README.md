@@ -17,6 +17,7 @@ b. Set a Static IP Address
   - Edit network configuration file (assuming Ubuntu with netplan)
   - sudo vim /etc/netplan/01-netcfg.yaml
   - Add Static IP Configuration:
+    
    3_Networking/screenshots/Picture3.png
 
     # problem
@@ -31,7 +32,7 @@ b. Set a Static IP Address
 3.	Starting systemd-networkd: This service is responsible for managing network configurations. If it's not running, Netplan cannot apply the configurations.
 4.	Applying Netplan: Running sudo netplan apply reconfigures the network interfaces according to the updated settings.
    
-# 3
+#
    
     c. Verify Configuration:
   #4
