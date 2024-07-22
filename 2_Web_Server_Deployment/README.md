@@ -15,6 +15,7 @@ o	The Apache web server, known for its flexibility and power, will be installed 
 
 
 3.	Start Apache Service
+   
 •	After enabling the service, we will start Apache to begin serving web content immediately. This step activates the Apache service, making it ready to handle incoming web requests and deliver content to users.
  
  ![screenshot1](screenshots/Picture3.png)
