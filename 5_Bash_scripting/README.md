@@ -32,7 +32,8 @@ efficiently.
 The script will prompt you to enter the username and group for the new user.
 Afterward, it will ask you to set a password for the new user you see in 
 the screenshot:
-111111
+
+![pic_2](screenshots/Picture2.png)
 
 2_System Update Script
 
