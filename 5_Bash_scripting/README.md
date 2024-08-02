@@ -1,5 +1,7 @@
 1_User Management Script
 
+![pic_1](screenshots/Picture1.png)
+
 ## Description
 
 This Bash script automates the process of adding new users to a Linux system. It performs the following tasks:
