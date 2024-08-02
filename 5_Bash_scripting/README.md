@@ -37,6 +37,8 @@ the screenshot:
 
 2_System Update Script
 
+![pic_3](screenshots/Picture3.png)
+
 Objective:
 Automate the process of updating and upgrading system packages on a Linux-based machine to ensure the system is running the latest software versions and security patches.
 
