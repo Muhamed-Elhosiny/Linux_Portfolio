@@ -62,7 +62,7 @@ Make the script executable:
 
 chmod +x system_update.sh
 
-screenshott
+ ![pic_4](screenshots/Picture4.png)
 
 3_Log File Cleanup Script
 
