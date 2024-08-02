@@ -56,3 +56,31 @@ Save the script as system_update.sh.
 Make the script executable:
 
 chmod +x system_update.sh
+
+screenshott
+
+3_Log File Cleanup Script
+
+Objective:
+Automate the cleanup of old log files to free up disk space and maintain an efficient logging system.
+Script: log_cleanup.sh
+Description:
+The log_cleanup.sh script is designed to find and delete log files older than a specified number of days in a given directory. This helps in managing disk space by removing outdated log files, ensuring that the system’s storage is used efficiently.
+
+xx  screen foor script
+
+How It Works:
+1.Log Directory: The script specifies the directory where log files are stored. By default, this is set to /var/log, but it can be changed to any directory containing log files.
+2.Retention Period: The script sets a retention period for the log files. In this example, it keeps log files for 30 days. Files older than this period will be deleted.
+3.Find and Delete: The find command is used to locate log files (*.log) in the specified directory that are older than the specified number of days. The -exec rm -f {} part of the command deletes these files.
+4.Cleanup Message: The script outputs messages indicating the start and completion of the log file cleanup process.
+
+Usage:
+1.Save the script as log_cleanup.sh.
+2.Make the script executable:
+chmod +x log_cleanup.sh
+3Run the script with root privileges
+sudo ./log_cleanup.sh
+
+xscreen for the output
+
