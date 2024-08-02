@@ -66,6 +66,8 @@ chmod +x system_update.sh
 
 3_Log File Cleanup Script
 
+![pic_6](screenshots/Picture6.png)
+
 Objective:
 Automate the cleanup of old log files to free up disk space and maintain an efficient logging system.
 Script: log_cleanup.sh
