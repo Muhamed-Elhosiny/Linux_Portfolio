@@ -89,5 +89,5 @@ chmod +x log_cleanup.sh
 3Run the script with root privileges
 sudo ./log_cleanup.sh
 
-xscreen for the output
+![pic_7](screenshots/Picture7.png)
 
