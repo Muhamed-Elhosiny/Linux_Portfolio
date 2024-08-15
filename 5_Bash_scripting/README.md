@@ -42,7 +42,7 @@ the screenshot:
 
 ![pic_3](screenshots/Picture3.png)
 
-Objective:
+### Objective:
 
 Automate the process of updating and upgrading system packages on a Linux-based machine to
 ensure the system is running the latest software versions and security patches.
