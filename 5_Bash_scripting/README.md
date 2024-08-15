@@ -3,7 +3,7 @@
 
 ![pic_1](screenshots/Picture1.png)
 
-## Description
+### Description
 
 This Bash script automates the process of adding new users to a Linux system. 
 It performs the following tasks:
@@ -16,14 +16,14 @@ It performs the following tasks:
 This script is useful for Linux administrators who need to manage user accounts 
 efficiently.
 
-## Features
+### Features
 
 - Root Privilege Check: Ensures that the script is executed as root, which is
   necessary for user management.
 - User Creation:Creates a new user and adds them to a specified group.
 - Password Setting: Allows setting a password for the newly created user.
 
-## Usage
+### Usage
 
 1. **Make the Script Executable**
 
@@ -49,11 +49,11 @@ ensure the system is running the latest software versions and security patches.
 
 Script: system_update.sh
 
-## Description:
+### Description:
 
 The system_update.sh script is designed to automate the process of updating the package index and upgrading installed packages on Linux system. This script simplifies system maintenance by ensuring that all software is up-to-date with the latest versions and patches.
 
-## How It Works:
+### How It Works:
 
 Root Privileges Check: The script first verifies if it is being run with root privileges. This is essential because system updates require administrative access. If the script is not run as root, it exits with a message indicating that root access is required.
 
@@ -63,7 +63,7 @@ Upgrading Packages: The apt upgrade -y command upgrades all installed packages t
 
 Completion Message: After completing the update and upgrade process, the script prints a message indicating that the system update and upgrade are complete.
 
-## Usage:
+### Usage:
 
 Save the script as system_update.sh.
 
@@ -79,17 +79,17 @@ Below is an example of the script’s output when executed:
 
 ![pic_6](screenshots/Picture6.png)
 
-## Objective:
+### Objective:
 
 Automate the cleanup of old log files to free up disk space and maintain an efficient logging system.
 Script: log_cleanup.sh
 
-## Description:
+### Description:
 
 The log_cleanup.sh script is designed to find and delete log files older than a specified number of days in a given directory. This helps in managing disk space by removing outdated log files, ensuring that the system’s storage is used efficiently.
 
 
-## How It Works:
+### How It Works:
 
 1.Log Directory: The script specifies the directory where log files are stored. By default, this is set to /var/log, but it can be changed to any directory containing log files.
 
@@ -99,7 +99,7 @@ The log_cleanup.sh script is designed to find and delete log files older than a 
 
 4.Cleanup Message: The script outputs messages indicating the start and completion of the log file cleanup process.
 
-## Usage:
+### Usage:
 
 1.Save the script as log_cleanup.sh.
 
