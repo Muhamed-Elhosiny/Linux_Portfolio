@@ -51,7 +51,7 @@ Script: system_update.sh
 
 ## Description:
 
-The system_update.sh script is designed to automate the process of updating the package index and upgrading installed packages on a Debian-based Linux system. This script simplifies system maintenance by ensuring that all software is up-to-date with the latest versions and patches.
+The system_update.sh script is designed to automate the process of updating the package index and upgrading installed packages on Linux system. This script simplifies system maintenance by ensuring that all software is up-to-date with the latest versions and patches.
 
 ## How It Works:
 
