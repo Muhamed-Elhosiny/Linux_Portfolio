@@ -32,8 +32,8 @@ efficiently.
  
    chmod +x user_management.sh
 
-The script will prompt you to enter the username and group for the new user.
-Afterward, it will ask you to set a password for the new user you see in 
+The script will prompt us to enter the username and group for the new user.
+Afterward, it will ask us to set a password for the new user we see in 
 the screenshot:
 
 ![pic_2](screenshots/Picture2.png)
