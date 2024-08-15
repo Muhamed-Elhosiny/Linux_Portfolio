@@ -1,30 +1,31 @@
-Project Overview
-
-Objective: Configure network settings and troubleshoot network issues on a Linux server.
+# Configure network settings and troubleshoot network issues on a Linux server.
 Detailed Steps
 
-1.	Initial Network Configuration
-    a. Check Current Network Settings:
-  	This command displays all network interfaces and their current configuration.	
+## 1.	Initial Network Configuration
+
+#### a. Check Current Network Settings:
+
+This command displays all network interfaces and their current configuration.	
+
  ![pic1](screenshots/Picture1.png)
 
 
-    b. Set a Static IP Address
+#### b. Set a Static IP Address
 
-  - Identify your network interface (e.g., eth0, enp0s3, etc.)
+  - Identify our network interface (e.g., eth0, enp0s3, etc.)
   - Edit network configuration file (assuming Ubuntu with netplan)
   - sudo vim /etc/netplan/01-netcfg.yaml
   - Add Static IP Configuration:
     
     ![pic1](screenshots/Picture3.png)
 
-# Problem
+### Problem
     
 When I tried to Apply the Configuration:	sudo netplan apply, I met this problem
-Permissions Issue: Netplan configuration files should have restricted permissions     for security reasons. You need to change the permissions of the file
+Permissions Issue: Netplan configuration files should have restricted permissions     for security reasons. We need to change the permissions of the file
 /etc/netplan/01-netcfg.yaml.
 
-After following these steps, your network settings should be correctly applied without warnings or errors.
+After following these steps, our network settings should be correctly applied without warnings or errors.
     
 1.	Permissions Fix: Changing the file permissions to 600 ensures that only the root       user can read and write the configuration file. This is a security measure to          prevent unauthorized access.
 2.	Configuration Update: The gateway4 setting is replaced with the routes section,        which is the recommended way to specify default routes in recent versions of            Netplan.
