@@ -16,7 +16,7 @@ This project will demonstrate our ability to set up and configure a Linux server
 
    ![Screenshot1](screenshots/Picture3.1.png)
 
-2.	Configuring SSH Access 
+## 2.	Configuring SSH Access 
 
    - Install and configure OpenSSH Server:
 
