@@ -26,7 +26,7 @@
 
 ### 7. Add sara to the hr group:
 
-To add the user sara to the hr group, we can use the usermod command. This command allows you to modify user properties, including group memberships.
+To add the user sara to the hr group, we can use the usermod command. This command allows us to modify user properties, including group memberships.
 
 ![image](https://github.com/user-attachments/assets/8da6d790-3b84-4112-ae63-586389c9e409)
 
